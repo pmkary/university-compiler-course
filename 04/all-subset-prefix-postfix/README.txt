@@ -3,6 +3,6 @@
 ── ─── INFORMATION ────────────────────────────────────────────────────────────────
 ──
 
-    Use "kc; node 04/all-subset-prefix-postfix/app.js" from the root of the project.
+    Use "node 04/all-subset-prefix-postfix/app.js" from the root of the project.
 
 ── ────────────────────────────────────────────────────────────────────────────────
