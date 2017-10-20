@@ -11,13 +11,13 @@
 
     def generate-all-subsets text:
         fix all-subsets = [ ]
-        for 0 up to (+ text/length 1) via low-boundary:
-            for (+ low-boundary 1) up to (+ text/length 1) via high-boundary:
+        for 0 up to text/length via low-boundary:
+            for low-boundary up to text/length via high-boundary:
                 (all-subsets/push
                     (text/substring low-boundary high-boundary))
             end
         end
-        return all-subsets
+        return (all-subsets/filter [ x => x != "" ])
     end
 
     fix all-subsets = (generate-all-subsets test-case)
