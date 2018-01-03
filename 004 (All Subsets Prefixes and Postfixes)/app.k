@@ -22,7 +22,7 @@
 
     fix all-subsets = (generate-all-subsets test-case)
     (console/log
-        "All subsets (" all-subsets/length ") are:" all-subsets)
+        "All subsets ("   all-subsets/length   ") are:"   all-subsets)
 
 
 //
@@ -40,7 +40,7 @@
 
     fix all-prefixes = (generate-all-prefixes test-case)
     (console/log
-        "All prefixes (" all-prefixes/length ") are: " all-prefixes)
+        "All prefixes ("   all-prefixes/length   ") are: "   all-prefixes)
 
 //
 // ─── POSTFIXES ──────────────────────────────────────────────────────────────────
@@ -57,6 +57,6 @@
 
     fix all-postfixes = (generate-all-postfixes test-case)
     (console/log
-        "All postfixes (" all-postfixes/length ") are: " (all-postfixes/reverse))
+        "All postfixes ("   all-postfixes/length   ") are: "   (all-postfixes/reverse))
 
 // ────────────────────────────────────────────────────────────────────────────────
