@@ -38,6 +38,10 @@
 
     // returns "something" and "something else"
     (console/log
-        (T9 suggestions "en"))
+        (T9 suggestions "sg"))
 
 // ────────────────────────────────────────────────────────────────────────────────
+
+
+
+
